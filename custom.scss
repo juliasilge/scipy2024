@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$presentation-heading-font: 'Open Sans', sans-serif;
+
+$body-color: #404041;
+$code-block-border-color: #00000000;
+$linkColor: #447099;
+$linkColorHover: lighten( $linkColor, 20% );
+
+.big-text {
+    color: #FFFFFF;
+    font-weight: 800;
+}
