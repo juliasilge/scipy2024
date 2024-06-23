@@ -1,0 +1,143 @@
+---
+title: "The right tool for the job"
+author: "SciPy 2024 | Julia Silge"
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    footer: <https://juliasilge.github.io/scipy2024>
+    preview-links: auto
+    width: 1280
+    height: 720
+    incremental: true
+    transition: fade
+    background-transition: fade
+    code-line-numbers: false
+    highlight-style: a11y-light
+    center-title-slide: false
+    title-slide-attributes: 
+      data-background-image: images/anne-nygard-yYRAvcPrWms-unsplash.jpg
+      data-background-color: "#404041"
+      data-background-opacity: "0.4"
+knitr:
+  opts_chunk: 
+    echo: true
+    collapse: true
+    comment: "#>"
+---
+
+## Hello!
+
+<center>
+
+<img src="https://github.com/juliasilge.png" style="border-radius: 50%;" width="300px"/>
+
+[{{< fa brands github >}} \@juliasilge](https://github.com/juliasilge)
+
+[{{< fa brands mastodon >}} \@juliasilge\@fosstodon.org](https://fosstodon.org/@juliasilge)
+
+[{{< fa brands youtube >}} youtube.com/juliasilge](https://www.youtube.com/juliasilge)
+
+[{{< fa link >}} juliasilge.com](https://juliasilge.com/)
+
+</center>
+
+## {background-image="images/posit-logo-fullcolor-TM.svg" background-size="80%"}
+
+::: footer
+:::
+
+# Tools for data science {.center background-image="images/posit-logo-fullcolor-TM.svg" background-position="bottom 100px right 100px" background-size="30%"}
+
+- [Quarto](https://quarto.org/)
+- [Shiny](https://shiny.posit.co/)
+- [Great Tables](https://posit-dev.github.io/great-tables/)
+- [Vetiver](https://vetiver.posit.co/)
+- [Pins](https://rstudio.github.io/pins-python/)
+- Exciting new work! 🎉
+
+## Using multiple programming languages {background-image="images/undraw_questions_re_1fy7.svg" background-position="center right 100px" background-size="30%"}
+
+- What does it ***cost***?
+- What do you ***gain***?
+- What can we ***give***?
+
+# {background-image="images/anne-nygard-yYRAvcPrWms-unsplash.jpg" background-color="#404041" background-opacity="0.4"}
+
+::: {.r-fit-text}
+[COST]{.big-text}
+:::
+
+# For the individual {background-image="images/undraw_exams_re_4ios.svg" background-position="center right 100px" background-size="30%"}
+
+- It is expensive to learn new things
+- There are benefits to specialization
+
+# In an organization {background-image="images/undraw_working_re_ddwy.svg" background-position="center right 100px" background-size="30%"}
+
+- Consistency
+- Complexity
+
+# [There should be one, and preferably only one, obvious way to do it]{.white}{.center background-image="images/anne-nygard-yYRAvcPrWms-unsplash.jpg" background-color="#404041" background-opacity="0.4"}
+
+::: footer
+[The Zen of Python](https://peps.python.org/pep-0020/)
+:::
+
+# {background-image="images/anne-nygard-yYRAvcPrWms-unsplash.jpg" background-color="#404041" background-opacity="0.4"}
+
+::: {.r-fit-text}
+[GAIN]{.big-text}
+:::
+
+# In an organization {background-image="images/undraw_team_page_re_cffb.svg" background-position="center right 100px" background-size="30%"}
+
+- Everyone can be more productive
+
+# [Practicality beats purity]{.white}{.center background-image="images/anne-nygard-yYRAvcPrWms-unsplash.jpg" background-color="#404041" background-opacity="0.4"}
+
+::: footer
+[The Zen of Python](https://peps.python.org/pep-0020/)
+:::
+
+# For the individual {background-image="images/undraw_career_development_re_sv91.svg" background-position="center right 100px" background-size="30%"}
+
+- You can scale your impact
+
+# {background-image="images/anne-nygard-yYRAvcPrWms-unsplash.jpg" background-color="#404041" background-opacity="0.4"}
+
+::: {.r-fit-text}
+[GIVE]{.big-text}
+:::
+
+# Building tools {background-image="images/undraw_spread_love_re_v3cl.svg" background-position="center right 100px" background-size="30%"}
+
+- Learn from one community
+- Bring to a different one
+
+
+# Positron {background-image="images/undraw_dev_focus_re_6iwt.svg" background-position="center right 100px" background-size="30%"}
+
+- Positron is a next-generation data science IDE
+- Positron is an early stage project
+- <https://github.com/posit-dev/positron/>
+
+
+## Thank you!
+
+<center>
+
+<img src="https://github.com/juliasilge.png" style="border-radius: 50%;" width="300px"/>
+
+[{{< fa brands github >}} \@juliasilge](https://github.com/juliasilge)
+
+[{{< fa brands mastodon >}} \@juliasilge\@fosstodon.org](https://fosstodon.org/@juliasilge)
+
+[{{< fa brands youtube >}} youtube.com/juliasilge](https://www.youtube.com/juliasilge)
+
+[{{< fa link >}} juliasilge.com](https://juliasilge.com/)
+
+</center>
+
+::: footer
+Image credits: [Katerina Limpitsouni](https://undraw.co/illustrations), [Anne Nygård](https://unsplash.com/photos/claw-hammer-and-nails-yYRAvcPrWms)
+:::
