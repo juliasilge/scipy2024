@@ -21,6 +21,7 @@ format:
 knitr:
   opts_chunk: 
     echo: true
+    eval: false
     collapse: true
     comment: "#>"
 ---
@@ -83,6 +84,83 @@ knitr:
 [The Zen of Python](https://peps.python.org/pep-0020/)
 :::
 
+## Pins 📌
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Python
+
+```python
+import pins
+
+board = pins.board_temp()
+board.pin_write(
+  very_nice_data, 
+  "important-stuff", 
+  type = "parquet"
+  )
+```
+:::
+
+::: {.column width="50%"}
+
+#### R
+
+```r
+library(pins)
+
+board <- board_temp()
+board |> pin_write(
+  very_nice_data, 
+  "important-stuff", 
+  type = "parquet"
+  )
+```
+:::
+
+::::
+
+## Pins 📌
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Python
+
+```python
+import pins
+
+board = pins.board_temp()
+board.pin_read("important-stuff")
+```
+:::
+
+::: {.column width="50%"}
+
+#### R
+
+```r
+library(pins)
+
+board <- board_temp()
+board |> pin_read("important-stuff")
+```
+:::
+
+::::
+
+<br>
+
+- Cost for individuals
+- Cost for our organization
+
 # {background-image="images/anne-nygard-yYRAvcPrWms-unsplash.jpg" background-color="#404041" background-opacity="0.4"}
 
 ::: {.r-fit-text}
@@ -97,6 +175,11 @@ knitr:
 
 ::: footer
 [The Zen of Python](https://peps.python.org/pep-0020/)
+:::
+
+## {background-color="white" background-image="https://vetiver.rstudio.com/images/ml_ops_cycle.png" background-size="contain"}
+
+::: footer
 :::
 
 # For the individual {background-image="images/undraw_career_development_re_sv91.svg" background-position="center right 100px" background-size="30%"}
@@ -115,10 +198,15 @@ knitr:
 - Bring to a different one
 
 
+##  {background-iframe="https://www.isabelizimm.me/vetiverdashboard/"}
+
+::: footer
+:::
+
 # Positron {background-image="images/undraw_dev_focus_re_6iwt.svg" background-position="center right 100px" background-size="30%"}
 
 - Positron is a next-generation data science IDE
-- Positron is an early stage project
+- Positron is a *very* early stage project
 - <https://github.com/posit-dev/positron/>
 
 
