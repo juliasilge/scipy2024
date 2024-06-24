@@ -12,7 +12,6 @@ format:
     transition: fade
     background-transition: fade
     code-line-numbers: false
-    highlight-style: a11y-light
     center-title-slide: false
     title-slide-attributes: 
       data-background-image: images/anne-nygard-yYRAvcPrWms-unsplash.jpg
@@ -101,8 +100,7 @@ board = pins.board_temp()
 board.pin_write(
   very_nice_data, 
   "important-stuff", 
-  type = "parquet"
-  )
+  type = "parquet")
 ```
 :::
 
@@ -117,8 +115,7 @@ board <- board_temp()
 board |> pin_write(
   very_nice_data, 
   "important-stuff", 
-  type = "parquet"
-  )
+  type = "parquet")
 ```
 :::
 
@@ -182,9 +179,62 @@ board |> pin_read("important-stuff")
 ::: footer
 :::
 
+## Vetiver 🏺
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Python
+
+```python
+from vetiver import VetiverModel, VetiverAPI
+
+v = VetiverModel(
+  model_fit, 
+  "my-important-model", 
+  prototype_data = X_train)
+
+api = VetiverAPI(v)
+api.run()
+```
+:::
+
+::: {.column width="50%"}
+
+#### R
+
+```r
+library(vetiver)
+library(plumber)
+
+v <- vetiver_model(
+  model_fit, 
+  "my-important-model")
+
+pr() |>
+  vetiver_api(v) |>
+  pr_run()
+```
+:::
+
+::::
+
+# MLOps is...
+
+- *Versioning*
+    * Managing change in models ✅ 
+- *Deploying*
+    * Putting models in REST APIs 🎯
+- *Monitoring*
+    * Tracking model performance 👀
+
 # For the individual {background-image="images/undraw_career_development_re_sv91.svg" background-position="center right 100px" background-size="30%"}
 
 - You can scale your impact
+- Consider the long term
 
 # {background-image="images/anne-nygard-yYRAvcPrWms-unsplash.jpg" background-color="#404041" background-opacity="0.4"}
 
@@ -197,11 +247,7 @@ board |> pin_read("important-stuff")
 - Learn from one community
 - Bring to a different one
 
-
-##  {background-iframe="https://www.isabelizimm.me/vetiverdashboard/"}
-
-::: footer
-:::
+# Positron screenshots
 
 # Positron {background-image="images/undraw_dev_focus_re_6iwt.svg" background-position="center right 100px" background-size="30%"}
 
