@@ -235,6 +235,7 @@ pr() |>
 
 - You can scale your impact
 - Consider the long term
+- Increase your vocabulary
 
 # {background-image="images/anne-nygard-yYRAvcPrWms-unsplash.jpg" background-color="#404041" background-opacity="0.4"}
 
@@ -246,6 +247,18 @@ pr() |>
 
 - Learn from one community
 - Bring to a different one
+
+# 
+
+::: {.r-stack}
+![](images/02-27-2024.png){.fragment .absolute top=50 left=50}
+
+![](images/02-13-2023.png){.fragment .absolute top=200 right=50}
+
+![](images/10-03-2023.png){.fragment .absolute bottom=50 left=50}
+
+![](images/data-science-hangout.png){.fragment .absolute bottom=250 left=350}
+:::
 
 # Positron screenshots
 
